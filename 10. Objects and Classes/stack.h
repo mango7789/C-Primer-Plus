@@ -4,12 +4,12 @@
 typedef unsigned long Item;
 
 class Stack {
-   private:
+private:
     enum { MAX = 10 };
     Item items[MAX];
     int top;
 
-   public:
+public:
     Stack();
     bool isEmpty() const;
     bool isFull() const;
